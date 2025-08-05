@@ -17,3 +17,10 @@
 - v1.1.0 
   - Support for reading X.509 PKCS #12 (.p12/.pfx)
   - Support for writing X.509 certs to PKCS #7
+ 
+## To build this locally run
+```
+./gradle buildPlugin
+```
+
+Once complete you will find the package at `build/distributions/x509certbuddy-<version>.zip`
